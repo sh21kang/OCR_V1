@@ -44,3 +44,7 @@ https://hackernoon.com/latest-deep-learning-ocr-with-keras-and-supervisely-in-15
 
 - OCR 관련논문
 https://das2018.cvl.tuwien.ac.at/media/filer_public/85/fd/85fd4698-040f-45f4-8fcc-56d66533b82d/das2018_short_papers.pdf
+
+Character Recognition
+https://pdfs.semanticscholar.org/8fa4/5b60e78b3d7cc26271dfa79baea66e7d13ce.pdf
+
