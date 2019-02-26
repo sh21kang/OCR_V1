@@ -1,5 +1,9 @@
 # Approach
 
+## 0. Preprocessing
+- Preprocessing and Feature Extraction for a Handwriting Recognition System 
+https://www.computer.org/csdl/proceedings/icdar/1993/4960/00/00395706.pdf
+
 
 ## 1. Classic computer vision techniques
 
