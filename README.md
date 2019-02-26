@@ -23,7 +23,7 @@ https://github.com/tesseract-ocr/docs
 
 
 ## 3. Standard deep learning approach
-
+SSD, YOLO model, Mask RCNN
 
 # application
 Google Cloud Vision API
