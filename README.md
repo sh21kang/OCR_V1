@@ -1,9 +1,33 @@
-# OCR_V1
+# Approach
 
 
-## 1. 고전 OCR
+## 1. Classic computer vision techniques
 
 ![ocr](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w11_application_example_ocr/photoocr.png)
+
+
+## 2. Specialized deep learning approaches
+### 1) EAST( Efficient accurate scene text detector)
+
+### 2) RCNN(Convolutional-recurrent neural network)
+![RCNN](https://cdn-images-1.medium.com/max/800/0*nGWtig3Cd0Jma2nX)
+
+### 3) STN-net/SEE(Semi-Supervised End-to-End Scene Text Recognition)
+![STN](https://cdn-images-1.medium.com/max/800/1*XAUtH9C1iPLa9clk9RA-8Q.png)
+
+### ex)
+- Build a Handwritten Text Recognition System using TensorFlow (CNN + RNN + CTC layer)
+https://towardsdatascience.com/build-a-handwritten-text-recognition-system-using-tensorflow-2326a3487cd5
+
+
+
+
+## 3. Standard deep learning approach
+
+
+# application
+Google Cloud Vision API
+![API](https://cdn-images-1.medium.com/max/800/1*2aEAFgnCSpPaPf4wu0rP1g.png)
 
 
 
@@ -16,3 +40,6 @@ https://towardsdatascience.com/a-gentle-introduction-to-ocr-ee1469a201aa
 
 - 최신 OCR 모델 with keras
 https://hackernoon.com/latest-deep-learning-ocr-with-keras-and-supervisely-in-15-minutes-34aecd630ed8
+
+- OCR 관련논문
+https://das2018.cvl.tuwien.ac.at/media/filer_public/85/fd/85fd4698-040f-45f4-8fcc-56d66533b82d/das2018_short_papers.pdf
