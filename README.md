@@ -1,4 +1,11 @@
-# Approach
+# Character Recognition
+- Handwritten Bangla Character Recognition
+https://arxiv.org/pdf/1712.09872.pdf
+
+- English Online Handwriting Recognition 
+https://www.ijana.in/Special%20Issue/C29.pdf
+
+# Text Recognition
 
 ## 0. Preprocessing
 - Preprocessing and Feature Extraction for a Handwriting Recognition System 
@@ -9,8 +16,8 @@ https://www.computer.org/csdl/proceedings/icdar/1993/4960/00/00395706.pdf
 
 ![ocr](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w11_application_example_ocr/photoocr.png)
 
-Character Recognition
-https://arxiv.org/pdf/1712.09872.pdf
+
+
 
 
 ## 2. Specialized deep learning approaches
