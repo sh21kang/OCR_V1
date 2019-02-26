@@ -55,6 +55,7 @@ https://towardsdatascience.com/a-gentle-introduction-to-ocr-ee1469a201aa
 
 - 최신 OCR 모델 with keras
 https://hackernoon.com/latest-deep-learning-ocr-with-keras-and-supervisely-in-15-minutes-34aecd630ed8
+![LSTM](https://cdn-images-1.medium.com/max/2000/1*sdb9_e5LVSJnxivblcFxEg.png)
 
 - OCR 관련논문
 https://das2018.cvl.tuwien.ac.at/media/filer_public/85/fd/85fd4698-040f-45f4-8fcc-56d66533b82d/das2018_short_papers.pdf
