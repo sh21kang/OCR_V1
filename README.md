@@ -18,7 +18,7 @@
 ### ex)
 - Build a Handwritten Text Recognition System using TensorFlow (CNN + RNN + CTC layer)
 https://towardsdatascience.com/build-a-handwritten-text-recognition-system-using-tensorflow-2326a3487cd5
-
+https://github.com/tesseract-ocr/docs
 
 
 
@@ -28,9 +28,10 @@ https://towardsdatascience.com/build-a-handwritten-text-recognition-system-using
 # application
 Google Cloud Vision API
 ![API](https://cdn-images-1.medium.com/max/800/1*2aEAFgnCSpPaPf4wu0rP1g.png)
+https://towardsdatascience.com/secret-of-google-web-based-ocr-service-fe30eecedd01
 
-
-
+=> 최근 모델
+https://github.com/tesseract-ocr/docs/blob/master/das_tutorial2016/6ModernizationEfforts.pdf
 
 ### link
 
