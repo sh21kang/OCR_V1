@@ -5,6 +5,9 @@
 
 ![ocr](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w11_application_example_ocr/photoocr.png)
 
+Character Recognition
+https://arxiv.org/pdf/1712.09872.pdf
+
 
 ## 2. Specialized deep learning approaches
 ### 1) EAST( Efficient accurate scene text detector)
