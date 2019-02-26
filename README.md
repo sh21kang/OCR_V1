@@ -3,8 +3,8 @@
 
 ## 1. 고전 OCR
 
+![ocr](https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w11_application_example_ocr/photoocr.png)
 
-[logo]: https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w11_application_example_ocr/photoocr.png "classic OCR"
 
 
 
