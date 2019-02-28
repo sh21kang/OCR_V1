@@ -63,3 +63,54 @@ https://das2018.cvl.tuwien.ac.at/media/filer_public/85/fd/85fd4698-040f-45f4-8fc
 Character Recognition
 https://pdfs.semanticscholar.org/8fa4/5b60e78b3d7cc26271dfa79baea66e7d13ce.pdf
 
+
+
+
+
+-----------------------------------------------------------------
+##Install baidu warpctc
+
+cd ~/
+git clone https://github.com/baidu-research/warp-ctc
+cd warp-ctc
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+
+--> 결과물 ~/warp-ctc/build/libwarpctc.so
+
+--------------------------------------------------------------------
+##Install mxnet and Binding warpctc
+
+git clone --recursive https://github.com/Xilinx/mxnet
+
+comment out following lines in make/config.mk
+WARPCTC_PATH = $(HOME)/warp-ctc
+MXNET_PLUGINS += plugin/warpctc/warpctc.mk
+
+make clean && make -j4
+
+~/mxnet/python/ 에서
+
+you can change in setup.py :
+
+      packages=[
+          'mxnet', 'mxnet.module', 'mxnet._ctypes', 'mxnet.rnn',
+          'mxnet._cy2', 'mxnet._cy3', 'mxnet.notebook', 'mxnet.contrib',
+          ],
+by
+
+      packages=[
+          'mxnet', 'mxnet.module', 'mxnet._ctypes', 'mxnet.rnn',
+          'mxnet._cy2', 'mxnet._cy3', 'mxnet.notebook', 'mxnet.contrib',
+          'mxnet.gluon', 'mxnet.gluon.nn', 'mxnet.gluon.rnn'
+          ],
+
+
+python setup.py clean
+python setup.py install
+
+
+export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
