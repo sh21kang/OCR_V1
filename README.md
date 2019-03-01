@@ -70,27 +70,27 @@ https://pdfs.semanticscholar.org/8fa4/5b60e78b3d7cc26271dfa79baea66e7d13ce.pdf
 -----------------------------------------------------------------
 ##Install baidu warpctc
 
-cd ~/
-git clone https://github.com/baidu-research/warp-ctc
-cd warp-ctc
-mkdir build
-cd build
-cmake ..
-make
-sudo make install
+    cd ~/
+    git clone https://github.com/baidu-research/warp-ctc
+    cd warp-ctc
+    mkdir build
+    cd build
+    cmake ..
+    make
+    sudo make install
 
 --> 결과물 ~/warp-ctc/build/libwarpctc.so
 
 --------------------------------------------------------------------
 ##Install mxnet and Binding warpctc
 
-git clone --recursive https://github.com/Xilinx/mxnet
+    git clone --recursive https://github.com/Xilinx/mxnet
 
-comment out following lines in make/config.mk
-WARPCTC_PATH = $(HOME)/warp-ctc
-MXNET_PLUGINS += plugin/warpctc/warpctc.mk
+    comment out following lines in make/config.mk
+    WARPCTC_PATH = $(HOME)/warp-ctc
+    MXNET_PLUGINS += plugin/warpctc/warpctc.mk
 
-make clean && make -j4
+    make clean && make -j4
 
 ~/mxnet/python/ 에서
 
@@ -108,9 +108,12 @@ by
           'mxnet.gluon', 'mxnet.gluon.nn', 'mxnet.gluon.rnn'
           ],
 
+and
 
-python setup.py clean
-python setup.py install
+    python setup.py clean
+    python setup.py install
 
 
-export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+finally
+
+    export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
